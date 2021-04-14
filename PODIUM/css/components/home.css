@@ -1,0 +1,16 @@
+.main-home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../images/backgrounds/beauty.jpg") center center no-repeat;
+    text-align: center;
+}
+
+.map-google iframe {
+    width: 100%;
+}
+
+section {
+    overflow: hidden;
+}

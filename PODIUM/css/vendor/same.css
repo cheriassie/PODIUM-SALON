@@ -1,0 +1,46 @@
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.section-top {
+    text-align: center;
+}
+
+.section-padding {
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+
+.section-top h3 {
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section-top p {
+    font-size: 19px;
+    color: #333;
+    /* width: 50%;
+    margin: auto; */
+    padding: 0 25%;
+    margin-top: 20px;
+}
+
+.price-content h4 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.price-content p {
+    font-size: 18px;
+    font-weight: 200;
+    padding: 10px 20%;
+}

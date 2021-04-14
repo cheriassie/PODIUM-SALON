@@ -1,0 +1,15 @@
+.color {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2% 10% 2%;
+    border-bottom: 1px solid gray;
+    padding-right: 2%;
+    font-weight: bold;
+}
+
+.color-desc {
+    margin: 2% 10% 2%;
+    text-align: left
+}

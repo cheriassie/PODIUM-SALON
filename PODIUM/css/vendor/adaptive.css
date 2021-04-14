@@ -1,0 +1,51 @@
+@media (max-width: 1020px) {
+    .nav {
+        display: none;
+    }
+    .mobile-bar.fas {
+        color: black;
+        display: block;
+    }
+    .home-block {
+        width: 100%;
+    }
+    .template-item {
+        width: calc(100% / 2 - 3%);
+        margin-bottom: 50px;
+    }
+    .main-features {
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 2% 10%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .feature-block {
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    .template-item>img {
+        width: 100%;
+        height: 250px;
+    }
+    .item {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width: 565px) {
+    .template-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .template-item>img {
+        width: 100%;
+    }
+    .quote {
+        margin-top: 0%;
+    }
+    .salon-info {
+        width: max-content;
+    }
+}

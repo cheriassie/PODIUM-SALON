@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.mobile-bar.fas {
+    display: none;
+}
+
+.logo img {
+    width: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    margin-left: 15px;
+}
+
+.links {
+    margin-right: 8px;
+    text-transform: uppercase;
+}
+
+.links>a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header.active {
+    z-index: 20;
+}
+
+.nav-link:hover {
+    color: #ed421c;
+    transition: color .1s linear;
+}
